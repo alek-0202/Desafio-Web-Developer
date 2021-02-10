@@ -1,0 +1,102 @@
+*{
+  margin:0px;
+  padding:0px;
+  /*Garamond para título e Optima para texto*/
+  font-family: 'Trebuchet MS', Cambria, 'Times New Roman', serif;
+}
+
+html, body{
+  height:100%;
+  width:100%;
+  font-family:cambria;
+  background:rgb(255, 159, 0);
+}
+
+#conteudoPrincipal{
+  height: 86%;
+  width: 100%;
+
+}
+
+    #formulario{
+		width:800px;
+		margin:25px auto;
+		text-align:center;
+		position:relative;
+    background-color: white;
+	}
+	#formulario h2{
+		font: 40px "Trebuchet MS",tahoma, cambria;
+		color:rgb(255, 159, 0);
+		width:100%;
+		float:left;
+		text-align:center;
+		margin-bottom:3%;
+	}
+	#formulario fieldset{
+		background:white;
+		border:0 none;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		box-shadow:0 0 15px 1px rgba(0,0,0, 0.4);
+		padding:20px 30px;
+
+		box-sizing: border-box;
+		width:80%;
+		margin:0 10%;
+		position:absolute;
+	}
+	#formulario fieldset:not(:first-of-type){
+		display:none;
+	}
+	#formulario input, #formulario textarea{
+		padding:8px;
+		border:1px solid rgb(255, 159, 0);
+		border-radius:4px;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+		outline:none;
+		box-sizing: border-box;
+		font:14px "Trebuchet MS",tahoma,cambria;
+		margin-bottom:10px;
+	}
+
+	#formulario .acao{
+		width:140px;
+		border-style: none;
+		color:white;
+		text-transform:uppercase;
+		font-weight:bold;
+		padding:12px 0;
+		float:right;
+		margin-top:4px;
+	}
+    #formulario .acao:hover{cursor:pointer;}
+	#botao1{
+		background:rgb(234,67,53);
+		float:right;
+	}
+	#botao2{
+		background:#3CB371;
+        float:right;
+        margin-left: 5px;
+	}
+
+	#formulario #progress{
+		margin-bottom:30px;
+		overflow:hidden;
+
+		counter-reset: step;
+	}
+	#formulario #progress li{
+		list-style-type:none;
+		color:white;
+		font-weight:bold;
+		text-transform:uppercase;
+		font-size:10px;
+		float:left;
+		width:33.33%;
+		position:relative;
+	}
+    
